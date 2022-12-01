@@ -38,10 +38,12 @@ For example, suppose the Elves finish writing their items' Calories and end up w
 In case the Elves get hungry and need extra snacks, they need to know which Elf to ask: they'd like to know how many Calories are being carried by the Elf carrying the most Calories. In the example above, this is 24000 (carried by the fourth Elf).
 
 --- 
+
 ## --- Part one ---
 Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
 Your puzzle answer was ???
+
 ---
 ## --- Part Two ---
 By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually run out of snacks.
