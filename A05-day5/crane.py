@@ -3,6 +3,7 @@ def reverse(s):
             return s
     else:
         return reverse(s[1:]) + s[0]
+
 f=open("input.txt","r")
 m_obj = f.read().split('\n')
 stack0=""
@@ -39,14 +40,7 @@ for i in my_st:
 print("="*10 + "\n")
 pop_val = []
 
-"""  
-for i in range(2):
-    pop_val.append(my_st[0].pop())
-for i in pop_val:
-    my_st[2].append(i)
-"""
-
-f2 = open("slic.txt", "r")
+f2 = open("tooLazyTosepInput.txt", "r")
 c = 0
 command_list = f2.read().split("\n")
 for i in command_list:
