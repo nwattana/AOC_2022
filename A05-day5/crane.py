@@ -3,11 +3,8 @@ def reverse(s):
             return s
     else:
         return reverse(s[1:]) + s[0]
-
 f=open("input.txt","r")
-
 m_obj = f.read().split('\n')
-
 stack0=""
 stack1=""
 stack2=""
@@ -66,7 +63,9 @@ for i in command_list:
         my_st[dst - 1].append(i)
     pop_val = []
 
+strr = ""
 for i in my_st:
-    print(i[-1])
+    strr += str(i[-1])
+print(strr)
 print("="*10 + "\n")
 
