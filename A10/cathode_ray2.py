@@ -6,7 +6,7 @@
 #    By: nwattana <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/10 12:38:29 by nwattana          #+#    #+#              #
-#    Updated: 2022/12/10 15:01:50 by nwattana         ###   ########.fr        #
+#    Updated: 2022/12/10 15:04:53 by nwattana         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ def sprit_move(pos):
 ##			print(int(i + pos))
 			buffere[pos+i] = "\033[1;31;41m#\033[0m"
 #	buffere[0] = '.' # bug with no idea so put this to make monitor clean
-	print("sprit = "+"".join(buffere))
+#	print("sprit = "+"".join(buffere))
 	return (buffere)
 
 
